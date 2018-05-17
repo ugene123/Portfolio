@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans');
+
+div ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+div li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+hr {
+  color: #F8F8F8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1em;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+}
+
+.name-container {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 40px;
+  position: absolute;
+  top: 1%;
+  left: 25%;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+
+.name-container h5 {
+
+}
+
+.title {
+  background: #333;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+}
+
+.title-header {
+  background: #2c3e50;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 10px;
+}
+
+
+.education-container {
+  text-align:center;
+
+}
+
+#drexel-logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+
+}
+
+#education-text {
+  text-align: left;
+}
+
+.education {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.experience-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-title {
+  text-align: center;
+}
+
+.experience-text ul {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+#chop-logo {
+  height: 120px;
+  width: 120px;
+}
+
+#youtube-logo {
+  height: 100px;
+  width: 130px;
+  padding-top: 15px;
+}
+
+#slabcraft-logo {
+  height: 140px;
+  width: 180px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+.social-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-container li {
+  display: inline-block;
+  margin-left: 7px;
+}
+
+#instagram-logo, #linkedin-logo, #twitter-logo, #facebook-logo, #youtube-social-logo, #phone-logo, #email {
+  height: 30px;
+  width: 30px;
+}
+
+.skills-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#python-logo, #r-studio-logo, #html-js-css-logo,
+#qlikview-logo, #jenkins-logo, #swift-logo,
+#android-logo, #xcode-logo, #eclipse-logo{
+  max-width: 80%;
+  max-height: 80%;
+}
+
+#java-logo, #final-cut-pro-logo, #r-logo{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+#github-logo, #sql-logo, #atom-logo{
+  max-width: 40%;
+  max-height: 40%;
+}
+
+#photoshop-logo, #lightroom-logo {
+  max-width: 35%;
+  max-height: 35%;
+}
+
+#self-img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.info-container {
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 150px;;
+}
