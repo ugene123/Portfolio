@@ -1,0 +1,196 @@
+<html>
+
+  <header>
+    <title>Eugene Yakovlev Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </header>
+
+  <body>
+    <main id="sections">
+      <section class = "header-area">
+        <div class="header-container">
+          <div class="title-header">
+            <h3>welcome to Eugene Yakovlev</h3>
+          </div>
+           <img id="self-img" src="img/self-img.png">
+
+        </div>
+      </section>
+
+      <section class="education-area">
+        <div class="title">
+          <h3>education</h3>
+        </div>
+        <div class = "education-container">
+            <div class = "education">
+              <img id="drexel-logo" src="img/drexel-university-logo.png">
+            </div>
+            <div class = "education">
+              <p id = "education-text">
+                <b>Drexel University</b> <i>Philadelphia, PA</i>
+                <br><br>Bachelor of Science in Data Science
+                <br>Expected Graduation: June 2021
+                <br>Cumulative GPA: 3.89</p>
+            </div>
+        </div>
+      </section>
+
+      <section id = "faqs" class="experience-area">
+        <div class = "title">
+          <h3>experience</h3>
+        </div>
+        <div class = "experience-container">
+          <div class = "experience">
+            <img id="chop-logo" src="img/chop-logo.png">
+          </div>
+          <div class = "experience-title">
+              <h4>children's hospital of philadelphia</h4>
+              <h5>clinical data analyst</h5>
+              <p>
+                <i>September 2017 - April 2018</i>
+              </p>
+          </div>
+        </div>
+        <div class = "experience-text">
+            <ul>
+              <li> Developed an enterprise data mart, housing over 300,000 readmission records, that is used to improve efficiency and maintain accuracy across multiple projects using readmission data</li>
+              <li> Coded in R to streamline and automate reports that enable teams to monitor patients with the ultimate goal of improving patient outcomes </li>
+              <li> Built dashboards in QlikView to enable clinicians to interact with relevant data on demand </li>
+              <li> Programmed in SQL to retrieve patient information from the CHOP Data Warehouse that contains over 87 billions rows of data to support clinical quality improvement projects</li>
+            </ul>
+          </div>
+
+          <hr>
+          <div class = "experience-container">
+            <img id = "youtube-logo" src="img/youtube-logo.png">
+            <div class = "experience-title">
+                <h4>youtube</h4>
+                <h5>content creator</h5>
+                <p>
+                  <i>September 2016 - Present</i>
+                </p>
+            </div>
+          </div>
+          <div class = "experience-text">
+            <ul>
+              <li> Manage a YouTube channel that has over 180,000 subscribers and over 20,000,000 views </li>
+              <li> Identify trends to optimize channel performance and increase social media engagement </li>
+              <li> ​Collaborate with third party companies to develop online advertisement campaigns that spread awareness about their product/service across all of my social media accounts </li>
+              <li> Direct and Compose videos for my channel, which contains a library of over 100 videos, shooting with Canon DSLRs and editing with Final Cut Pro </li>
+            </ul>
+          </div>
+
+          <hr>
+          <div class = "experience-container">
+            <img id = "slabcraft-logo" src="img/slabcraft2-logo.png">
+            <div class = "experience-title">
+                <h4>slabcraft</h4>
+                <h5>owner / founder</h5>
+                <p>
+                  <i>May 2012 - March 2016</i>
+                </p>
+            </div>
+          </div>
+          <div class = "experience-text">
+            <ul>
+              <li> Managed a Minecraft gaming community that expanded to over 150,000 users over 4 years </li>
+              <li> Developed a network of over 10 servers that provided users 5 unique games to play on the network </li>
+              <li> ​Supervised a team of up to 50 moderators and administrators to optimize and ensure a positive gaming experience across the entire network </li>
+              <li> Launched an online advertisement campaign to acquire more users to join the network that ultimately increased the network’s sales by 600% </li>
+            </ul>
+          </div>
+      </section>
+
+        <section class="skills-area">
+          <div class = "title">
+            <h3>skills & software</h3>
+          </div>
+          <div class = "skills-container">
+            <div class="row">
+              <div class="column">
+                <img id="python-logo" src="img/python.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="html-js-css-logo" src="img/html-js-css.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="r-logo" src="img/r-logo.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="java-logo" src="img/java.png" style="width:100%;">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <img id="swift-logo" src="img/swift-logo.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="atom-logo" src="img/atom-logo.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="r-studio-logo" src="img/r-studio.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="eclipse-logo" src="img/eclipse-logo.png" style="width:100%;">
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img id="xcode-logo" src="img/xcode-logo.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="sql-logo" src="img/sql.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="jenkins-logo" src="img/jenkins-logo.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="android-logo" src="img/android-logo.png" style="width:100%;">
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img id="github-logo" src="img/github.png" style="width:100%;">
+              </div>
+              <div class="column">
+                <img id="qlikview-logo" src="img/qlikview-logo.png" style="width:100%;">
+              </div>
+          </div>
+        </section>
+
+        <section class="info-area">
+          <div class="title">
+            <h3>additional info</h3>
+          </div>
+          <div class = "info-container">
+            <h3 id = "countdown"></h3>
+            <h5> until graduation!</h5>
+            <br><hr><br>
+            <h4>Currently:<h4>
+            <h3 id = "status"></h3>
+          </div>
+        </section>
+
+        <br><br><br><br><br>
+
+        <section class="contact-area">
+          <div class = "title">
+            <h3>contact</h3>
+            <div class = "social-container">
+              <ul class = "social-list">
+                <li><a href = "https://www.linkedin.com/in/eugene-yakovlev-a31b47120/" target="_blank"><img id="linkedin-logo" src="img/linkedin-logo.png"></a></li>
+                <li><a href = "https://www.twitter.com/YakovlevEugene" target="_blank"><img id="twitter-logo" src="img/twitter-logo.png"></a></li>
+                <li><a href = "https://www.instagram.com/ugene123/" target="_blank"><img id="instagram-logo" src="img/instagram-logo.png"></a></li>
+                <li><a href = "https://www.facebook.com/ugene1234/?ref=bookmarks" target="_blank"><img id="facebook-logo" src="img/facebook-logo.png"></a></li>
+                <li><a href = "https://www.youtube.com/c/eugeneyakovlev" target="_blank"><img id="youtube-social-logo" src="img/youtube-social-logo.png"></a></li>
+                <li><input type = "image" id="email" src="img/email.png"></input></li>
+              </ul>
+              <p>&copy; 2018 Eugene Yakovlev</p>
+            </div>
+          </div>
+        </section>
+        <script src="script.js"></script>
+      </main>
+  </body>
+</html>
